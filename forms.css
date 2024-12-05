@@ -1,0 +1,15 @@
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  margin-bottom: 3px;
+}

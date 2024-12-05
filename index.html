@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>Maison du fleur</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h4>our story</h4>
+      <h4>contact</h4>
+      <h1>Maison du fleur</h1>
+      <h4>products</h4>
+      <h4>works</h4>
+    </header>
+
+    <main>
+      <section class="slider">
+        <img src="./pictures/slider_1.jpg" class="slider_img" />
+        <img src="./pictures/frame.png" class="frame" />
+        <div class="slider_text">
+          <h3>Unforgettable flowers</h3>
+          <p class="slider_text_2">
+            Get to know us and fall in love with out arrangements
+          </p>
+          <p class="slider_button">See our flowers</p>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="banner-content">
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+          <p>flowers season</p>
+        </div>
+      </section>
+
+      <div class="phrase">
+        <img src="./pictures/background.png" class="phrase_img" />
+        <p class="phrase_text">
+          At Maison du fleur we believe in giving. <br />
+          We believe that generosity is the hallmark of humanity. We believe
+          that it is not the great acts of love that are remembered but the
+          simple details. A flower. A hug. A song. At maison du fleur we want
+          giving and receiving to have the same value. May both be a fantastic
+          experience.
+        </p>
+      </div>
+
+      <section class="products">
+        <div class="product_title">Our products</div>
+        <div id="container"></div>
+      </section>
+
+      <section class="contact">
+        <img src="./pictures/slider_2.jpg" class="image_contact" />
+
+        <div class="contact_container">
+          <h1 class="text-contact">Contact us</h1>
+
+          <form class="contact_form" action="#" method="POST">
+            <div class="form">
+              <label for="name" class="question">Name</label>
+              <input type="text" id="name" class="answer" />
+            </div>
+
+            <div class="form">
+              <label for="email" class="question">Mail</label>
+              <input type="email" id="email" class="answer" />
+            </div>
+
+            <div class="form">
+              <label for="message" class="question">Message</label>
+              <textarea id="message" class="answer"></textarea>
+            </div>
+
+            <button type="submit" class="contact_button">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Isabella con doble L</p>
+      <p>Web 2024</p>
+    </footer>
+
+    <script src="database.js"></script>
+  </body>
+</html>
